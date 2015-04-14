@@ -1,5 +1,5 @@
-FROM sameersbn/ubuntu:14.04.20150323
-MAINTAINER sameer@damagehead.com
+FROM lazyfrosch/ubuntu:trusty
+MAINTAINER Markus Frosch <markus@lazyfrosch.de>
 
 ENV PG_VERSION 9.4
 RUN wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | apt-key add - \
